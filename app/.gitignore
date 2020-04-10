@@ -1,0 +1,15 @@
+.gradle/
+build/
+local.properties
+
+# InteliJ
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+
+gradlew
+gradlew.bat
+gradle/*

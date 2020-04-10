@@ -1,0 +1,23 @@
+.gradle/
+.localgradle/
+build/
+local.properties
+
+# InteliJ
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+
+# fastlane
+fastlane/report.xml
+fastlane/README.md
+
+/captures/
+
+# KMP
+classes/
+
+.attach_pid*

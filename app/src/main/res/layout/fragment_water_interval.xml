@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/water_interval_title_text_view"
+        style="@style/PlantTitleText"
+        android:text="@string/chose_water_interval"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/water_interval_image"
+        style="@style/PlantImage"
+        android:src="@drawable/ic_water_tank"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/water_interval_title_text_view" />
+
+    <TextView
+        android:id="@+id/water_interval_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:paddingStart="@dimen/large_padding"
+        android:paddingTop="@dimen/large_padding"
+        android:paddingEnd="@dimen/large_padding"
+        android:text="@string/water_interval_more_info"
+        android:textColor="?android:attr/textColorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/water_interval_image" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/water_interval_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/large_padding"
+        android:padding="@dimen/large_padding"
+        android:stepSize="1"
+        android:valueFrom="1"
+        android:valueTo="30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/water_interval_info"
+        app:theme="@style/AppTheme" />
+
+    <TextView
+        android:id="@+id/water_interval_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/default_days"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/water_interval_slider" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/water_interval_continue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/large_padding"
+        android:text="@string/continue_button"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/water_interval_text_view"
+        app:theme="@style/AppTheme" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

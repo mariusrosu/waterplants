@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "968371541421",
+    "firebase_url": "https://marius-water-my-plants.firebaseio.com",
+    "project_id": "marius-water-my-plants",
+    "storage_bucket": "marius-water-my-plants.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968371541421:android:3327af2eb39e28ade07d24",
+        "android_client_info": {
+          "package_name": "com.marius.waterplants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968371541421-cne1j1am4npp36f1tn7u6j6d3rl64t8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marius.waterplants",
+            "certificate_hash": "427fdfa246a7f013537c97827c5016ac1bf4e550"
+          }
+        },
+        {
+          "client_id": "968371541421-6rqt5qhrmaev1i79dsrmnbgq25fclt7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLRTVDrwT8WI8g7TNB7H711B5wvJ8AHbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968371541421-6rqt5qhrmaev1i79dsrmnbgq25fclt7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

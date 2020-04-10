@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Water My Plants</string>
+
+    <string name="add_new_plant">Add new plant</string>
+    <string name="about">About</string>
+    <string name="open_source_licences">Open-source licenses</string>
+
+    <string name="add_here_info">Add here the details of your new plant</string>
+    <string name="water_interval_info">How often should this plant be watered?</string>
+    <string name="plant_name">Plant\'s name</string>
+    <string name="add_button">Add</string>
+    <string name="next_button">Next</string>
+    <string name="continue_button">Continue</string>
+    <plurals name="days">
+        <item quantity="one">%s day</item>
+        <item quantity="other">%s days</item>
+    </plurals>
+
+    <string name="plant_type_cactus">Cactus</string>
+    <string name="plant_type_indoor_plant">Indoor plant</string>
+    <string name="plant_type_outdoor_plant">Outdoor plant</string>
+    <string name="plant_type_indoor_flower">Indoor flower</string>
+    <string name="plant_type_outdoor_flower">Outdoor flower</string>
+    <string name="plant_type_seeds">Seeds</string>
+    <string name="plant_type_tree">Tree</string>
+    <string name="plant_type_fruit">Fruit</string>
+    <string name="plant_type_vegetable">vegetable</string>
+
+    <string name="chose_plant_type">Chose your plant\'s type</string>
+    <string name="set_plant_name">Set a name for your new plant</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chose_water_interval">How often do you want to water this plant?</string>
+    <string name="finish_button">Finish</string>
+    <string name="water_interval_more_info">Drag the slider to select the time interval. You will get a notification every time the time interval passes.</string>
+    <string name="default_days">1 day</string>
+    <string name="empty_title">It\'s a bit empty here!</string>
+    <string name="empty_text">Start adding plants to your garden by tapping the button below/</string>
+    <string name="cd_plant_image">Plant Image</string>
+
+    <string name="transition_name_plant_type">plant_type</string>
+    <string name="transition_name_plant_name">plant_name</string>
+</resources>

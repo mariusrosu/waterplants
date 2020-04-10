@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/plant_name_title_text_view"
+        style="@style/PlantTitleText"
+        android:text="@string/set_plant_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/selected_plant_type_image"
+        style="@style/PlantImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plant_name_title_text_view"
+        tools:src="@drawable/ic_indoor_plant" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/plant_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/large_padding"
+        android:fontFamily="@font/roboto"
+        android:hint="@string/plant_name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selected_plant_type_image"
+        app:theme="@style/AppTheme" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/plant_name_finish_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/large_padding"
+        android:text="@string/finish_button"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plant_name_edit_text"
+        app:theme="@style/AppTheme" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

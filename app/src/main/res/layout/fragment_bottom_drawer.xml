@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/default_padding">
+
+    <TextView
+        android:id="@+id/add_new_plant"
+        style="@style/Settings.PrimaryText"
+        android:drawableStart="@drawable/ic_plant"
+        android:drawableLeft="@drawable/ic_plant"
+        android:drawablePadding="@dimen/large_padding"
+        android:padding="@dimen/large_padding"
+        android:text="@string/add_new_plant" />
+
+    <include layout="@layout/divider" />
+
+    <TextView
+        android:id="@+id/about"
+        style="@style/Settings.PrimaryText"
+        android:padding="@dimen/large_padding"
+        android:text="@string/about" />
+
+    <include layout="@layout/divider" />
+
+    <TextView
+        android:id="@+id/open_source_licences"
+        style="@style/Settings.PrimaryText"
+        android:padding="@dimen/large_padding"
+        android:text="@string/open_source_licences" />
+
+</LinearLayout>
